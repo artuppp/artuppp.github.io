@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="icon" href="./img/cover.jpg"/>
+  <title>Arturo Vicente Jaén</title>
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio-1-col.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio-2-col.html">Open-source</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio-3-col.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>          
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Projects
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Projects</li>
+    </ol>
+
+    <!-- Pagination -->
+    <!-- <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1-col.html" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1-col.html">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1_2-col.html">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1_2-col.html" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>   -->
+
+    <!-- Project Two -->
+    <div class="row">
+      <div class="col-md-7">
+        <a href="#">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="resources/presbyopia.gif" alt="">
+        </a>
+      </div>
+      <div id="Presbyopia" class="col-md-5">
+        <h3>Automatic Presbyopia Correction Glasses</h3>
+        <p>By integrating focus-tunable lenses, miniature cameras for pupil tracking, and real-time vergence control, we developed a wearable system that dynamically adjusts optical power to restore clear vision at all distances. This approach enables seamless, automatic focus adjustment for users with presbyopia, enhancing visual comfort and daily convenience.
+        </p>
+          <a class="btn btn-primary" href="https://doi.org/10.1038/s41598-020-77465-5">Paper (legacy version)
+          <span class="glyphicon glyphicon-chevron-right"></span></a>       
+      </div>
+    </div><hr>
+
+    <div class="row">
+      <div class="col-md-7">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="./resources/VR4D.gif" alt="">
+      </div>
+      <div id="VolRec" class="col-md-5">
+        <h3>VolRec 4D</h3>
+        <p>VolRec 4D is an advanced algorithm for real-time volumetric reconstruction and processing of large-scale OCT data. By leveraging both spatial and temporal reconstruction techniques over GPUs, VolRec 4D enables the acquisition and visualization of high-resolution OCT volumes at rates exceeding 25 volumes per second, making it ideal for dynamic, high-throughput imaging applications.</p>
+         <a class="btn btn-primary" href="https://doi.org/10.1007/s11227-025-06969-6">Paper
+          <span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div><hr>
+
+
+    <!-- /.row -->
+    <div class="row">
+      <div class="col-md-7">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="resources/pupilTracking.gif" alt="">
+      </div>
+      <div id="PupilTrackingGPU" class="col-md-5">
+        <h3>Pupil Tracking GPU</h3>
+        <p>Our GPU-accelerated pupil tracking algorithms leverage CUDA to deliver up to 15× speed improvements over sequential methods, with no loss of accuracy. This enables real-time, high-precision pupil detection and tracking for demanding imaging applications.
+        </p>
+          <a class="btn btn-primary" href="portfolio-2-col.html#PupilTrackingGPU">Code
+          <span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div><hr>
+
+    <!-- Project Three -->
+    <div class="row">
+      <div class="col-md-7">
+        <a href="#">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="./resources/Blob.png" alt="">
+        </a>
+      </div>
+      <div id="Blob" class="col-md-5">
+        <h3>Blob Finder C++</h3>
+        <p>Blob Finder C++ is a parallelized C++ algorithm for efficient blob detection, inspired by the blob detection tools in the scikit-image suite. It uses a multi-scale Laplacian of Gaussian (LoG) approach to accurately identify blobs of varying sizes in images, and is optimized for high performance on multi-core CPUs.</p>
+          <a class="btn btn-primary" href="portfolio-2-col.html#BlobFinder">Code
+          <span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Project Three -->
+    <div class="row">
+      <div class="col-md-7">
+        <a href="#">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="./resources/fitellipse.png" alt="">
+        </a>
+      </div>
+      <div id="EllipseFit" class="col-md-5">
+        <h3>Ellipse Fit CUDA</h3>
+        <p>
+        Ellipse Fit CUDA is a GPU-accelerated algorithm for fast and accurate ellipse fitting, utilizing CUDA and its linear algebra library (cuBLAS). It supports efficient batch processing, enabling simultaneous fitting of multiple ellipses for high-throughput image analysis tasks.
+        </p>
+          <a class="btn btn-primary" href="portfolio-2-col.html#EllipseFit">Code
+          <span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div>
+    <hr>
+          <div class="row">
+          <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="./resources/FinalEvalu_v2.svg" alt="">
+          </a>
+        </div>
+        <div id="DeepPT" class="col-md-5">
+          <h3>DeepPT</h3>
+            <p>DeepPT is a machine learning-based algorithm that enables fast, precise, and energy-efficient pupil tracking. By leveraging advanced neural networks, DeepPT delivers real-time performance and high accuracy while minimizing computational power, making it ideal for resource-constrained and embedded imaging applications.</p>
+            </div>
+          </div>
+          <hr>
+    <hr>
+
+  
+    <!-- Pagination -->
+    <!-- <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1-col.html" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1-col.html">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1_2-col.html">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="portfolio-1_2-col.html" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul> -->
+
+  </div>
+  <!-- /.container -->
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+  <script src="js/main.js"></script> <!-- Resource jQuery -->
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Arturo Vicente Jaén 2025</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
